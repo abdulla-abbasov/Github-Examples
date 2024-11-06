@@ -6,4 +6,4 @@ jobs:
     runs-on:  ubuntu-latest
     steps:
       - name : echo current date
-        run : echo "todays date is. $(date)"    
+        run : echo "todayss date is. $(date)"    
