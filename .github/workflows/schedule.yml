@@ -1,5 +1,5 @@
 on:
-  schedules:
+  schedule:
     - cron : '*/2  * * * *'
 jobs:
   hello-world:
