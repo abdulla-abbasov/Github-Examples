@@ -3,7 +3,7 @@ on:
     - cron : '*/2  * * * *'
 jobs:
   hello-world:
-    runs-on:  ubuntu:latest
+    runs-on:  ubuntu-latest
     steps:
       - name : echo current date
         run : echo "todays date is. ${date}"    
